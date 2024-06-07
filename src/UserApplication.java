@@ -10,7 +10,7 @@ public class UserApplication {
 		UserService userService = new UserService();
 		Scanner scanner = new Scanner(System.in);
 		
-		User[] users = null;
+		User[] users = new User[4];
 		
 		try {
 			users = userService.readDataFromFile("data.txt");
