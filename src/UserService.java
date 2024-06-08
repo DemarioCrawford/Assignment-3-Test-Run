@@ -10,7 +10,7 @@ public class UserService {
 		List<User> usersList = new ArrayList<>();
 
 		for (String line : lines) {
-			String[] parts = line.split(", ");
+			String[] parts = line.split(",");
 			if (parts.length == 3) {
 				String username = parts[0].trim();
 				String password = parts[1].trim();
