@@ -42,8 +42,7 @@ public class UserApplication {
 				System.out.println("Too many failed login attempts, you are now locked out");
 			}
 			scanner.close();
-			//just testing to see if I can push this new repository
-			//if anything else changes I will see it in github desktop
+			
 	}
 
 }
